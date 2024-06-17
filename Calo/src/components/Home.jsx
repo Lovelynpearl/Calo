@@ -86,7 +86,7 @@ function Home() {
     </div>
   <p className='text-[#F3F4F6] text-left'>introducing our latest collection of products</p>
   <div className="">
-  <div className='border-[1px] text-[#FAFAFA] w-[235px] h-[44px] font-bold text-center '>PLACE YOUR ORDER</div>
+  <div className='border-[1px] text-[#FAFAFA] w-[235px] h-[44px] font-bold text-center text-l'>PLACE YOUR ORDER</div>
   <img src={arrow} alt="arrow" className='' />
   </div>
   </div>
