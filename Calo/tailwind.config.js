@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{html,jsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['Euclid Circular A', 'sans-serif'],
+    },
+    extend: {
+      fontFamily: {
+        sans: ['Euclid Circular A', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

@@ -6,6 +6,8 @@ import { Routes, Route } from "react-router-dom"
 import Home from "./components/Home"
 import About from "./components/About"
 import Contact from "./components/Contact"
+import NavBar from "./components/Navbar"
+import Screenone from './components/Screenone'
 
 
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/" element={ <Home/> } />
         <Route path="about" element={ <About/> } />
         <Route path="contact" element={ <Contact/> } />
+        <Route path="navbar" element={ <NavBar/> } />
+        <Route path="screenone" element={<Screenone/> } />
       </Routes>
     </div>
       {/* <h1>Vite + React</h1> */}
