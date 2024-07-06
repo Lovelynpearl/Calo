@@ -52,7 +52,7 @@ import hambuger from "./assets/hambuger.svg";
 
 function Home() {
   return (
-    <div className="flex flex-col font-sans gap-[20px] w-[390px] lg:w-full">
+    <div className="parent flex flex-col font-sans gap-[20px] w-[428px] lg:h-[] h-[3946px] mx-auto lg:w-[1440px]">
       {/* <h1 className="bg-red-600">This is the home page</h1> */}
       {/* <Link to="about">Click to view our about page</Link> */}
       {/* <Link className="text-[#000000]" to="NavBar">navabar</Link> */}
@@ -123,7 +123,7 @@ function Home() {
         className="flex flex-row gap-[36px] text-[12px] font-sans cursor-pointer ml-[77px] font-bold whitespace-nowrap  bg-white text-[#374151]">
         <div className="flex flex-row font-sans  w-[157px] h-[24px] gap-[8px]">
           <p className="font-sans text-[14px] font-semibold text-[#374151]">New Arrivals</p>
-          <p className="text-white bg-[#EB5757] font-sans flex justify-center items-center w-[60px] text-center h-[24px] gap-[10px]">#Fresh</p>
+          <p className="text-white bg-[#EB5757] font-sans flex justify-center items-center w-[60px] text-center text-[13] h-[24px] gap-[10px]">#Fresh</p>
         </div>
         <div className="">
           <ul className="lg:flex flex-row hidden font-semibold font-sans text-[14px] gap-[40px] text-[#374151]">
@@ -148,24 +148,24 @@ function Home() {
 
       {/* section one */}
 
-      <div className="parent flex flex-row h-[645px] relative bg-[#F7C59F] w-[1440px]">
-        <div className="bigchild w-[930px] relative h-[645px] bg-[#1C2333]">
+      <div className="parent flex lg:flex-row flex-col lg:h-[645px] h-[1000px] relative bg-[#F7C59F] w-[433px] lg:w-[1440px]">
+        <div className="bigchild lg:w-[930px] w-[433px] h-[502px] relative lg:h-[645px] lg:bg-[#1C2333] bg-[#111827]">
           <img
             src={mask}
             alt=""
-            className="bigbox absolute h-[645px] w-[930px]"
+            className="bigbox absolute h-[645px] hidden md:block w-[930px]"
           />
 
-          <div className="smallbox bg-[#1F2937] flex flex-col w-[556px] absolute top-[130px] left-[96px] p-[40px] h-[385px] gap-[56px] ">
-            <div className="flex gap-[16px] mt-[-10px] flex-col">
-              <h1 className="w-[476px] h-[71px] text-[#FAFAFA] text-[57px] text-left font-semibold font-sans whitespace-nowrap">
+          <div className="smallbox bg-[#1F2937] flex flex-col lg:w-[556px] w-[390px] absolute lg:top-[130px] lg:left-[96px] top-[74px] left-[23px] p-[40px] lg:h-[385px] h-[360px] gap-[56px] ">
+            <div className="flex lg:gap-[16px] gap-[24px] mt-[-10px] flex-col">
+              <h1 className="lg:w-[476px] lg:h-[71px] w-[272px] h-[41px] text-[#FAFAFA] text-[32px] lg:text-[57px] text-left font-semibold font-sans whitespace-nowrap">
                 Get up to 30% off{" "}
               </h1>
-              <h1 className="font-semibold text-[#F7C59F] text-[57px] font-sans text-left">
+              <h1 className="font-semibold text-[#F7C59F] lg:text-[57px] text-[32px] font-sans text-left">
                 {" "}
                 New Arrivals
               </h1>
-              <p className="text-[#F3F4F6] font-sans font-normal tracking-wider text-[18px] text-left">
+              <p className="text-[#F3F4F6] font-sans font-normal tracking-wider lg:text-[18px] text-[16px] text-left">
                 Introducing our latest collection of products
               </p>
 
@@ -173,8 +173,8 @@ function Home() {
 
             {/* <div className="flex flex-col gap-[60px]"> */}
 
-              <div className="flex gap-[16px] cursor-pointer flex-row border-[1px] w-[235px] h-[44px] items-center justify-center pl-[12px] pr-[12px] pt-[16px] pb-[16px]">
-                <div className=" text-[#FAFAFA] font-semibold text-center font-sans whitespace-nowrap text-l">
+              <div className="flex gap-[16px] cursor-pointer flex-row border-[1px] lg:w-[235px] w-[214px] lg:h-[44px] h-[42px] items-center justify-center pl-[12px] pr-[12px] pt-[16px] pb-[16px]">
+                <div className=" text-[#FAFAFA] font-semibold text-center font-sans whitespace-nowrap lg:text-[16px] text-[14px]">
                   PLACE YOUR ORDER
                 </div>
                 <img
@@ -189,13 +189,13 @@ function Home() {
         <img
           src={circle}
           alt=""
-          className="w-[347px] h-[347px] absolute top-[160px] inset-0 object-cover left-[1020px] z-0"
+          className="lg:w-[347px] w-[200px] lg:h-[347px] h-[200px] absolute top-[160px] inset-0 object-cover left-[1020px] z-0"
         />
 
         <img
           src={lady}
           alt=""
-          className=" h-[607px] absolute w-[312px] left-[1040px] top-[60px] z-10"
+          className=" lg:h-[607px] h-[386px] absolute lg:w-[312px] w-[171px] left-[1040px] top-[60px] z-10"
         />
       </div>
 
