@@ -13,7 +13,7 @@ function Navbar() {
 
 <div className="flex flex-col gap-[20px] font-sans w-[1440px] ">
 <div
-        className="flex gap-[10px] w-[1440px]  bg-[#FAFAFA] h-[86px] font-sans  pt-[24px] pr-[72px] pb-[32px] pl-[72px]">
+        className="flex gap-[10px] w-[1440px] bg-[#FAFAFA] h-[86px] font-sans  pt-[24px] pr-[72px] pb-[32px] pl-[72px]">
         <div className="flex gap-[230px] w-[1440px] h-[30px] bg-[#FAFAFA] items-center  ">
           <div>
             <h1 className="text-[24px] text-black w-[170px] leading-[30.43px] h-[30px] whitespace-nowrap font-sans font-normal">

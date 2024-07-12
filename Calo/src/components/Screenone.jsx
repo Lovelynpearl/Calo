@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 import Footer from "./footer";
 import ash from "./assets/ash.svg";
 import red from "./assets/red.svg";
